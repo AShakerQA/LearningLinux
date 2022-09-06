@@ -1,5 +1,18 @@
 #!/bin/bash
 
+# Author: Shak
+# Date Created: 06/09/2022
+# Last Modified: 06/09/2022
+
+# Description
+# Prints notifies the user what the current time is
+
+# Usage
+# substitution_script
+
+
+
+
 time=$(date +%H:%m:%S)
 
 echo "Hello $USER, the time right now is $time"

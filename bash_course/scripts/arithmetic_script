@@ -1,5 +1,19 @@
 #!/bin/bash
 
+# Author: Shak
+# Date Created: 06/09/2022
+# Last Modified: 06/09/2022
+
+# Description
+# Prints some math examples - cannot handle decimals
+
+# Usage
+# arithmetic_script
+
+
+
 x=4
 y=2
 echo $(( $x + $y ))
+echo $(( x / y))
+echo $(( $x ** $y))
