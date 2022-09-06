@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Shak
+# Date Created: 21/08/2022
+# Last Modified: 22/08/2022
+
+# Description
+# Prints "This is my first script" to the terminal
+
+# Usage
+# our_first_script
+
+echo "This is my first script"
+exit 0

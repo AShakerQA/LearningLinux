@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Author: Shak
+# Date Created: 22/08/2022
+# Last Modified: 06/09/2022
+
+# Description
+# Creates a backup of your home directory in your current working directory
+
+# Usage
+# backup_script
+
+echo "Hello, ${USER^}"
+echo "I will now back up your home directory, $HOME"
+
+currentdir=$(pwd)
+echo "You are running this script from $currentdir"
+echo "Therefore, I will save the backup in $currentdir"
+
+tar -cf $currentdir/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar $HOME/* 2>/dev/null
+
+echo "Backup Completed Successfully"
+exit 0
