@@ -1,0 +1,8 @@
+In order to add things to PATH, edit ~/.profile 
+e.g. at the bottom of the script add
+PATH="$PATH:$HOME/LearningLinux/bash_course/scripts"
+then reload profile file by running source ~/.profile
+
+This is so that the scripts can be executed from anywhere as long as they dont match any bash variable names/commands as the extension will be added to the end of the path file. (Last place to be checked)
+
+--Move this elsewhere later, ReadMe?
