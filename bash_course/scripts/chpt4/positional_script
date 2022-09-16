@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Author: Shak
+# Date Created: 16/09/2022
+# Last Modified: 16/09/2022
+
+# Description
+# Prints text to screen depending on what positional params are passed in
+# using parameter expansion
+
+# Usage
+# ./positional_script.sh position_var1 position_var2 position_var3
+# e.g. ./positional_script.sh shak $HOME blue
+
+
+echo "My name is $1"
+echo "My home directory is $2"
+echo "My favourite colour is $3"
+
+exit 0
