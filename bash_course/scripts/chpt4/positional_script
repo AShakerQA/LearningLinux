@@ -6,7 +6,7 @@
 
 # Description
 # Prints text to screen depending on what positional params are passed in
-# using parameter expansion
+# using parameter expansioin
 
 # Usage
 # ./positional_script.sh position_var1 position_var2 position_var3
@@ -17,4 +17,11 @@ echo "My name is $1"
 echo "My home directory is $2"
 echo "My favourite colour is $3"
 
+#use advanced param expansion syntax
+#${} when defining double digit positional params
+echo "The 10th argument is ${10}"
+
 exit 0
+
+#Note positional params are protected, so for example, you cannot
+#define 1=shak as bash protects the way positional params work
